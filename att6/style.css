@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* scroll nativo suave */
+  }
+  
+  .topo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .topo a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .topo a:hover {
+    text-decoration: underline;
+  }
+  
+  .secao {
+    height: 100vh;
+    padding-top: 80px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  #secao1 { background-color: #ffdddd; }
+  #secao2 { background-color: #ddffdd; }
+  #secao3 { background-color: #ddddff; }
+  
